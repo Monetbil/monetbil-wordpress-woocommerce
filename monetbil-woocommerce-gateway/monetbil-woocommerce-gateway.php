@@ -263,7 +263,7 @@ function init_monetbil_woocommerce_gateway()
 
             $monetbil_url = WC_Gateway_Monetbil::MONETBIL_WIDGET_URL . $monetbil_service_key . '?' . http_build_query($query);
 
-            echo '<iframe src="' . $monetbil_url . '" frameborder="0" style="width: 100%;height: 502px;border: 0;"></iframe>';
+            echo '<iframe src="' . $monetbil_url . '" frameborder="0" style="width: 100%;height: 552px;border: 0;"></iframe>';
         }
 
         public function generateNotice()
@@ -325,7 +325,9 @@ function init_monetbil_woocommerce_gateway()
             $ch = curl_init();
 
             curl_setopt($ch, CURLOPT_URL, 'https://api.monetbil.com/v1/services/get');
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
             curl_setopt($ch, CURLOPT_HEADER, 0);
             curl_setopt($ch, CURLOPT_POST, 1);
             curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($postData, '', '&'));
@@ -370,7 +372,9 @@ function init_monetbil_woocommerce_gateway()
             $ch = curl_init();
 
             curl_setopt($ch, CURLOPT_URL, 'https://api.monetbil.com/mtnmobilemoney/v1/checkPayment');
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
             curl_setopt($ch, CURLOPT_HEADER, 0);
             curl_setopt($ch, CURLOPT_POST, 1);
             curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($postData, '', '&'));
