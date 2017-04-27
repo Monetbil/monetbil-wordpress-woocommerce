@@ -17,6 +17,13 @@ https://github.com/Monetbil/monetbil-wordpress-woocommerce/raw/master/monetbil-w
 
 ![Image](https://www.monetbil.com/support/wp-content/uploads/2017/04/uploadplugins.png)
 
+3. Browse to "monetbil-woocommerce-gateway.zip" file and click on **Install Now**
+
+![Image](https://www.monetbil.com/support/wp-content/uploads/2017/04/installnow.png)
+
+And **Activate Plugin**
+
+![Image](https://www.monetbil.com/support/wp-content/uploads/2017/04/installingplugin.png)
 
 ### Monetbil Payment API Setup
 
