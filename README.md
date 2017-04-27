@@ -3,6 +3,12 @@ Monetbil Mobile Money WooCommerce Payment Gateway.
 
 ## How to set up Monetbil Woocommerce Gateway
 
+### Requirements
+
+* WordPress version 3.0 or greater.
+* PHP version 5.2.4 or greater.
+* MySQL version 5.0 or greater.
+
 ### Install the plugin
 
 1. Download the plugin.
@@ -39,7 +45,7 @@ And ***Activate Plugin***.
 5. Enter the payment **Title** and **Description**.
 6. Enter your Monetbil **Service key**.
 7. Enter your Monetbil **Service secret**.
-8. Click ***"Save Changes"*** ***"monetbil-woocommerce-gateway.zip"***.
+8. Click ***"Save Changes"***
 
 If you have any questions or need help, do not hesitate to contact us at [support@monetbil.com](https://www.monetbil.com/contact/support/?referral=github)
 
