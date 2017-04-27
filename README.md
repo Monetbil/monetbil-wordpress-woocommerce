@@ -31,24 +31,18 @@ And ***Activate Plugin***.
 
 ![Image](https://www.monetbil.com/support/wp-content/uploads/2017/04/woocommercesettings.png)
 
-2. Click on ***Checkout*** tab and click the Monetbil link.
+2. Click on ***Checkout*** tab and click the ***Monetbil*** link.
 
 ![Image](https://www.monetbil.com/support/wp-content/uploads/2017/04/checkouttab.png)
 
 3. Check to enable this payment gateway.
-5. Enter the payment title and descriptino.
-6. Enter your Seller ID (Monetbil Account Number).
-7. Enter your Monetbil API publishable key.
-8. Enter your Monetbil API private key.
-9. Click 'Save Changes'.
+5. Enter the payment **Title** and **Description**.
+6. Enter your Monetbil **Service key**.
+7. Enter your Monetbil **Service secret**.
+8. Click ***"Save Changes"***.
 
+If you have any questions or need help, do not hesitate to contact us at [support@monetbil.com](https://www.monetbil.com/contact/support/referral=github)
 
-#### Monetbil Settings
+## License
 
-1. Sign in to your Monetbil account.
-2. Click the ***Account*** tab and ***Site Management*** subcategory.
-3. Under ***Direct Return*** select ***Header Redirect*** or ***Given links back to my website***.
-4. Enter your ***Secret Word***._(Must be the same value entered in your WooCommerce admin.)_
-5. Click ***Save Changes***.
-
-Please feel free to contact Monetbil directly with any integration questions.
+Please refer to this repo's [LICENSE](LICENSE).
