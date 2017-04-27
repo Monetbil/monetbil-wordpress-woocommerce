@@ -7,6 +7,7 @@ Monetbil Mobile Money WooCommerce Payment Gateway.
 ### Install the plugin
 
 1. In your WordPress admin, navigate to **Plugins -> Add New**.
+
 ![Image](https://www.monetbil.com/support/wp-content/uploads/2017/04/pluginsaddnew.png)
 
 
