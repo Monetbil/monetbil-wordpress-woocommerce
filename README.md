@@ -39,7 +39,7 @@ And ***Activate Plugin***.
 5. Enter the payment **Title** and **Description**.
 6. Enter your Monetbil **Service key**.
 7. Enter your Monetbil **Service secret**.
-8. Click ***"Save Changes"***.
+8. Click ***"Save Changes"*** ***"monetbil-woocommerce-gateway.zip"***.
 
 If you have any questions or need help, do not hesitate to contact us at [support@monetbil.com](https://www.monetbil.com/contact/support/?referral=github)
 
