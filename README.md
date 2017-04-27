@@ -25,7 +25,7 @@ And ***Activate Plugin***.
 
 ![Image](https://www.monetbil.com/support/wp-content/uploads/2017/04/installingplugin.png)
 
-#### WooCommerce Settings
+### WooCommerce Settings
 
 1. Navigate to your WooCommerce settings page.
 
