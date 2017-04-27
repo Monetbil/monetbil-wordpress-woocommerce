@@ -1,49 +1,45 @@
-=== Monetbil Woocommerce Gateway ===
-Contributors: sergentong
-Tags: WooCommerce, Payment, Gateway,Payment Gateways, Shopping Cart, Extension, Invoice, Receipt
-Requires at least: 3.0
-Tested up to: 4.5.1
-Stable tag: 4.5.1
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+### _[Signup free with 2Checkout and start selling!](https://www.2checkout.com/referral?r=git2co)_
 
-== Description ==
-**This is the Monetbil payment gateway for WooCommerce.**
+### Integrate WooCommerce with 2Checkout Payment API (Supports PayPal Direct)
+----------------------------------------
 
-= About Monetbil =
-Monetbil is a payment method for digital goods and services online using the Mobile Money billing service.
+### 2Checkout Payment API Setup
 
-= About the plugin =
-The plugin allows you to use Monetbil payment gateway with the WooCommerce plugin. The plugin uses an iframe-based form.
+#### WooCommerce Settings
 
-= Features =
-* Pay with MTN Mobile Money
+1. Copy the 'twocheckout' folder to your WordPress plugins directory under '/wp-content/plugins'.
+2. In your WordPress admin, navigate to **Plugins** and install the **2Checkout Payment Gateway** plugin.
+3. Navigate to your WooCommerce settings page, click on **Payment Gateways** and click the **Twocheckout** link.
+4. Check to enable.
+5. Enter the payment title and descriptino.
+6. Enter your Seller ID (2Checkout Account Number).
+7. Enter your 2Checkout API publishable key.
+8. Enter your 2Checkout API private key.
+9. Click 'Save Changes'.
 
-== Installation ==
-= Installation =
-1. In your WordPress Dashboard go to \"Plugins\" -> \"Add Plugin\".
-2. Search for \"Monetbil Woocommerce Gateway\".
-3. Install the plugin by pressing the \"Install\" button.
-4. Activate the plugin by pressing the \"Activate\" button.
-5. Open the settings page for WooCommerce and click the \"Checkout\" tab.
-6. Click on the sub tab for \"Monetbil\".
-7. Configure your Monetbil Gateway settings.
 
-= Minimum Requirements =
-* WordPress version 3.0 or greater.
-* PHP version 5.2.4 or greater.
-* MySQL version 5.0 or greater.
 
-= Recommended Requirements =
-* Latest WordPress version.
-* PHP version 5.6 or greater.
-* MySQL version 5.6 or greater.
+### 2Checkout PayPal Direct Setup
 
-== Frequently Asked Questions ==
-= What is the cost for the gateway plugin? =
-This plugin is a FREE download.
+#### WooCommerce Settings
 
-== Screenshots ==
-1. Easy configuration.
-2. Payment gateway selection.
-3. Widget IFrame-based form.
+1. Copy the 'twocheckoutpp' folder to your WordPress plugins directory under '/wp-content/plugins'.
+2. In your WordPress admin, navigate to **Plugins** and install the **2Checkout PayPal Direct Gateway** plugin.
+3. Navigate to your WooCommerce settings page, click on **Payment Gateways** and click the **Twocheckoutpp** link.
+4. Check to enable.
+5. Enter the payment title and description.
+6. Enter your Seller ID (2Checkout Account Number).
+7. Enter your **Secret Word** _(Must be the same value entered on your 2Checkout Site Management page.)_
+9. Click **Save Changes**.
+8. Save your changes.
+
+
+#### 2Checkout Settings
+
+1. Sign in to your 2Checkout account.
+2. Click the **Account** tab and **Site Management** subcategory.
+3. Under **Direct Return** select **Header Redirect** or **Given links back to my website**.
+4. Enter your **Secret Word**._(Must be the same value entered in your WooCommerce admin.)_
+5. Click **Save Changes**.
+
+Please feel free to contact 2Checkout directly with any integration questions.
