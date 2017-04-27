@@ -1,14 +1,19 @@
-# Monetbil Android SDK
-
+# Monetbil Woocommerce Gateway
 Monetbil Mobile Money WooCommerce Payment Gateway.
 
 ## How to set up Monetbil Woocommerce Gateway
 
 ### Install the plugin
 
-1. In your WordPress admin, navigate to **Plugins -> Add New**.
+1. Download the plugin.
+https://github.com/Monetbil/monetbil-wordpress-woocommerce/raw/master/monetbil-woocommerce-gateway.zip
+
+2. In your WordPress admin, navigate to **Plugins -> Add New**.
 
 ![Image](https://www.monetbil.com/support/wp-content/uploads/2017/04/pluginsaddnew.png)
+3. Click on **Upload plugin**.
+
+![Image](https://www.monetbil.com/support/wp-content/uploads/2017/04/uploadplugins.png)
 
 
 ### Monetbil Payment API Setup
