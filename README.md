@@ -1,7 +1,7 @@
-# Monetbil Woocommerce Gateway
+# Monetbil WooCommerce Gateway
 Monetbil Mobile Money WooCommerce Payment Gateway.
 
-## How to set up Monetbil Woocommerce Gateway
+## How to set up Monetbil WooCommerce Gateway
 
 ### Requirements
 
