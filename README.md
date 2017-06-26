@@ -1,35 +1,31 @@
-# Monetbil WooCommerce Gateway
-Monetbil Mobile Money WooCommerce Payment Gateway.
-
-## How to set up Monetbil WooCommerce Gateway
+# Install and Activate Monetbil WooCommerce Gateway
+WooCommerce is the most popular WordPress eCommerce plugin. And it’s available for free. Packed full of features, perfectly integrated into your self-hosted WordPress website.
 
 ### Requirements
 
 * WordPress version 3.0 or greater.
 * PHP version 5.2.4 or greater.
 * MySQL version 5.0 or greater.
+* WooCommerce plugin.
+
+### Installing WooCommerce
+If your site already uses WooCommerce, you can simply skip this step.
+
+https://docs.woocommerce.com/document/installing-uninstalling-woocommerce/
 
 ### Install the plugin
 
-1. Download the plugin.
-
-https://github.com/Monetbil/monetbil-wordpress-woocommerce/raw/master/monetbil-woocommerce-gateway.zip
-
-2. In your WordPress admin, navigate to ***Plugins -> Add New***.
+1. In your WordPress admin, navigate to ***Plugins -> Add New***.
 
 ![Image](https://www.monetbil.com/support/wp-content/uploads/2017/04/pluginsaddnew.png)
 
-3. Click on ***Upload plugin***.
+2. Search for ***Monetbil WooCommerce*** and click on ***Install Now***.
 
-![Image](https://www.monetbil.com/support/wp-content/uploads/2017/04/uploadplugins.png)
+![Image](https://www.monetbil.com/support/wp-content/uploads/2017/06/pluginsearch.png)
 
-4. Browse to ***"monetbil-woocommerce-gateway.zip"*** file and click on ***Install Now***.
+3. ***Activate Plugin***.
 
-![Image](https://www.monetbil.com/support/wp-content/uploads/2017/04/installnow.png)
-
-And ***Activate Plugin***.
-
-![Image](https://www.monetbil.com/support/wp-content/uploads/2017/04/installingplugin.png)
+![Image](https://www.monetbil.com/support/wp-content/uploads/2017/06/pluginactivate.png)
 
 ### WooCommerce Settings
 
