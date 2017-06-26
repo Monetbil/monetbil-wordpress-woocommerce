@@ -1,6 +1,8 @@
 # Install and Activate Monetbil WooCommerce Gateway
 WooCommerce is the most popular WordPress eCommerce plugin. And it’s available for free. Packed full of features, perfectly integrated into your self-hosted WordPress website.
 
+![Image](https://www.monetbil.com/support/wp-content/uploads/2017/04/WooCommerce-logo.png)
+
 ### Requirements
 
 * WordPress version 3.0 or greater.
