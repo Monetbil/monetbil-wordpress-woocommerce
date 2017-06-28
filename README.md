@@ -15,6 +15,14 @@ If your site already uses WooCommerce, you can simply skip this step.
 
 https://docs.woocommerce.com/document/installing-uninstalling-woocommerce/
 
+To install WooCommerce:
+
+1. ***Log into*** your WordPress site.
+2. Go to: ***Plugins > Add New***.
+3. ***Type*** ‘WooCommerce’ into the Search Plugins… field. You’ll find our plugin that’s made by Automattic as the first result.
+4. ***Select*** Install Now.
+5. ***Select*** Activate Now, and you’re ready to get started!
+
 ### Install the plugin
 
 1. In your WordPress admin, navigate to ***Plugins -> Add New***.
